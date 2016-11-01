@@ -1,0 +1,51 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<title></title>
+<link rel="stylesheet" href="c03.css" type="text/css">
+<style type="text/css" media="all">
+body {background: #503EFF; margin: 0;}
+div#main {background: #FFF; padding: 1em 5em 2em 1em; margin: 2em 0 2em 2em;}
+.curves {margin: -1em 0 0 -1em;}
+.curves img {float: left; clear: left; margin-right: 1em;}
+.curves img {border: 1px solid red;} /* temporary */
+</style>
+</head>
+<body>
+
+<div id="main">
+
+<div class="curves">
+<img src="curve-1.png" alt="">
+<img src="curve-2.png" alt="">
+<img src="curve-3.png" alt="">
+<img src="curve-4.png" alt="">
+<img src="curve-5.png" alt="">
+</div>
+
+
+<p>
+Ah, the appeal of curves and other flowing shapes. They have their place in the heart of just about any visual designer, but when it comes to text flows on the Web, everything's been on the straight and boring, thanks to table cells, element boxes, and all that other stuff. Until now, anyway. Yes, the text is flowing along with the curve&mdash;not perfectly in step, I admit, but pretty close. And you thought Web design was all about straight lines and boxes.
+</p>
+
+<h2>Gently Floating...</h2>
+
+<p>
+All I did to make this happen was create a 100x100 image of a curve. Then I sliced it up into five strata, each one 10 or 20 pixels tall (depending on the stratum) and only as wide as necessary to show the curve without any clipping.
+</p>
+<p>
+Stack all five strata together (without the borders, of course) and we get the same curve I started with. But float those five strata so that they stack up, and text can flow around them, and their decreasing width allows the text to roughly follow the curve.  A right margin helps keep the text away from the curve; the greater the margin value, the further away text will be pushed from the curve.
+</p>
+
+<h2>Taking it Further</h2>
+<p>
+Of course, the original image could have been sliced up into five strata, or twenty, or even 200&mdash;assuming you wanted to force the user to download that many images. On the other hand, you could try a variant on single-pixel sizing where every row of pixels is the same stretched one-pixel image, exactly the right size to make up part of the curve, and every one floated. Although you save on downloads (only one image gets used) it's a pretty excessive approach from a markup standpoint, and don't blame me if you try it and your browser crashes, but it would work. You could even write a small Javascript to produce the required strata for you, thus keeping page weight down and letting the script automatically calculate the necessary width of each row.
+</p>
+<p>
+Or you could try "Super Ragged Floats", as described in the next tip.
+</p>
+
+</div>
+
+</body>
+</html>

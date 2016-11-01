@@ -1,0 +1,33 @@
+body {background: #FFF; color: #000;
+	font: small Arial, sans-serif;}
+a img {border: 0;}
+
+#header {background: #96dbf2; border-width: 1px 0; margin: 0 0 0.5em 31px;
+	position: relative;}
+#header ul {margin: 0.5em; padding: 0; list-style: none;}
+#header li {display: inline; margin: 0 1em;}
+#header a {text-decoration: none;}
+#header img {position: relative; left: -31px;}
+
+#header .nav {position: absolute; top: 0; right: 0;}
+#header form {position: absolute; bottom: 0; right: 0;
+	font-size: smaller;}
+#header form fieldset {border: 0;}
+#header form legend {display: none;}
+
+h1 {position: absolute; top: -1.75em; left: 0;
+	color: #BBB;
+	font-size: 2em;}
+h1 {display: none;}
+ul {margin: 0; padding: 1em;}
+
+.column ul {margin: 0; padding: 0; list-style: none;
+	border-top: 1px solid silver;}
+.column li {border-bottom: 1px solid silver;}
+.column ul a {display: block; padding: 0.33em 1em; text-decoration: none;}
+
+#footer {clear: both; padding: 1em 3em 0;
+	border-top: 1px solid silver; text-align: center;}
+#footer ul {margin: 0; padding: 0; list-style: none;}
+#footer li {display: inline; margin: 0 1em;}
+#footer p {font-size: smaller;}

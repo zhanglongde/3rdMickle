@@ -1,0 +1,89 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<title></title>
+<link rel="stylesheet" href="c03.css" type="text/css">
+<style type="text/css" media="all">
+body {font: 100%/2.5 Helvetica, sans-serif;}
+</style>
+</head>
+<body>
+
+<p>
+I&#8217;d like to share something that will be old news to readers of <a href="http://meyerweb.com/eric/books/css-tdg/"><cite>CSS: The Definitive Guide</cite></a> and all of <a href="http://meyerweb.com/eric/books/">my other books</a>, but nonetheless needs to be said out loud, in public, for everyone to hear.
+</p>
+<p>
+<strong>The property <code>line-height</code> can accept unitless number values.</strong>  You can also give <code>line-height</code> united values, though generally you shouldn&#8217;t.  But unitless numbers are just fine for this property.
+
+</p>
+<p>
+So what&#8217;s the difference?  When you define a united value, like <code>1em</code>, you&#8217;re setting things up to pass along the <em>computed</em> result to any descendants.  For example, suppose the following CSS is applied to a document containing the following markup fragment:
+</p>
+<pre>ul {font-size: 15px; line-height: 1em;}
+li {font-size: 10px;}
+small {font-size: 80%;}
+
+&lt;ul&gt;
+  &lt;li&gt;I'm a list item with &lt;small&gt;small text&lt;/small&gt;.&lt;/li&gt;
+
+&lt;/ul&gt;
+</pre>
+<p>
+The <code>ul</code> element has its <code>line-height</code> computed to be <code>15px</code> because for <code>line-height</code>, <code>em</code>-based values are calculated using the computed <code>font-size</code> of the element itself.  I declared the <code>font-size</code> directly, so we know its computed size in pixels.
+
+</p>
+<p>
+(Yes, yes, I know, pixel-sized text is evil and wrong, but it makes explaining how all this works a lot simpler.)
+</p>
+<p>
+So that computed value of <code>15px</code> is what&#8217;s passed on to the descendent elements.  The <code>li</code> and <code>small</code> elements will inherit a <code>line-height</code> value of <code>15px</code>.  End of story.  They don&#8217;t change it based on their own font sizes; in fact, they don&#8217;t change it <em>at all</em>.  They just take that <code>15px</code> and use it, exactly the same as if I&#8217;d said:
+
+</p>
+<pre>ul {font-size: 15px; line-height: 1em;}
+li {font-size: 10px; line-height: 15px;}
+small {font-size: 80%; line-height: 15px;}
+</pre>
+<p>
+Okay, now suppose I take the <code>em</code> off that <code>line-height</code> value, so that the styles now read:
+</p>
+<pre>ul {font-size: 15px; line-height: 1;}
+li {font-size: 10px;}
+small {font-size: 80%;}
+</pre>
+<p>
+Now what&#8217;s passed on is that raw number, which is used by descendent elements as a scaling factor&#8212;a multiplier, if you will&#8211;and <em>not</em> the computed result.
+
+</p>
+<p>
+Thus every element that inherits that value of <code>1</code> will take that value and multiply it with their computed <code>font-size</code>s.  The list item, with its declared <code>font-size: 10px</code>, will have a computed line-height of <code>10px</code>.  Then it will pass that <code>1</code> on to the <code>small</code> element, which will multiply it with <em>its</em> computed <code>font-size</code>.   That&#8217;s 8 pixels; therefore, its <code>line-height</code> will also be 8 pixels.
+
+</p>
+<p>
+The end result is exactly the same as if I&#8217;d written:
+</p>
+<pre>ul {font-size: 15px; line-height: 1;}
+li {font-size: 10px; line-height: 10px;}
+small {font-size: 80%; line-height: 8px;}
+</pre>
+<p>
+That&#8217;s a pretty major difference.  This is why it&#8217;s always strongly recommended that you use unitless numbers if you&#8217;re going to set a <code>line-height</code> on something like the <code>html</code> or <code>body</code> elements, or indeed on any element that is going to have descendant elements.
+
+</p>
+<p>
+The fact that the <a href="http://jigsaw.w3.org/css-validator/">CSS validator</a> has a bug that causes it to generate parse errors on unitless number values for <code>line-height</code> (see <a href="http://www.w3.org/Bugs/Public/show_bug.cgi?id=2307">report #2307</a>) rather confuses things; we get an occasional jeering e-mail over at <a href="http://alistapart.com/">A List Apart</a> as a result, since running CSS validation on the site gets an error due to my use of <code>line-height: 1;</code>.  Jeffrey points the correspondents to that bug report, and usually we never hear anything back.
+</p>
+
+<p>
+And if anyone reading this feels motivated to fix the validator, please do.  As it says in the bug report, all they really need is a patch for review.  I might do it myself when I have some free time.  That&#8217;ll be in, oh, 2009 or so.
+</p>
+<p>
+Again: <strong>the property <code>line-height</code> can accept unitless number values</strong>, and they&#8217;re a better choice than united values in 99 out of 100 cases anyway.  Okay?  Thank you.
+</p>
+<p>
+[<strong>Addendum 26 Aug 06:</strong> <a href="http://www.456bereastreet.com/" rel="acquaintance met">Roger Johansson</a> <a href="http://www.456bereastreet.com/archive/200608/unitless_lineheight_bug_in_mozilla_and_firefox/">points out a bug in older Gecko browsers</a> relating to unitless <code>line-height</code>s.]
+
+</p>
+
+
+</body>
+</html>
