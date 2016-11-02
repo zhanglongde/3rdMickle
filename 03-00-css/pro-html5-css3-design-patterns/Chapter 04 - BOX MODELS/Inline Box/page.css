@@ -1,4 +1,4 @@
-*.container { border:1px solid gray;   }
+*.container { border:1px solid gray;   width:1000px;}
 *.default   { line-height:normal; 
               width:auto; height:auto; overflow:visible; visibility:visible;
               margin:0; padding:0; border:none; background-color:gold; }
@@ -6,8 +6,7 @@
 *.box { display:inline;      visibility:visible;
         line-height:100px; 
         margin-left:100px;   margin-right:100px;  
-        padding: 20px 120px; 
-
+        padding: 20px 120px;
 
 /* The following border and backgound rules are used in other examples. */
         border-left:     5px solid gray; 

@@ -1,0 +1,332 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="394e6f79-911a-4210-bc93-c0ae25261390" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/03-01-CSS揭秘/00-基础知识/background-attachment.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/03-01-CSS揭秘/00-基础知识/background-clip.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/03-01-CSS揭秘/00-基础知识/background-origin.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/03-01-CSS揭秘/00-基础知识/font连环设值.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/03-01-CSS揭秘/00-基础知识/色标-百分比选取渐变起止点.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/03-01-CSS揭秘/00-基础知识/色标位置值-不小于前面值.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/03-01-CSS揭秘/00-基础知识/色标相同百分比-无渐变效果.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/03-01-CSS揭秘/00-基础知识/色标默认从上到小-0deg从下到上.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/03-01-CSS揭秘/0102-CSS编码技巧/currentColor.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/03-01-CSS揭秘/0201-半透明边框/background-clip.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/03-01-CSS揭秘/0202-多重边框/box-shadow方案.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/03-01-CSS揭秘/0202-多重边框/outline方案.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/03-01-CSS揭秘/0203-灵活的背景定位/background-origin.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/03-01-CSS揭秘/0203-灵活的背景定位/calc方案.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/03-01-CSS揭秘/0203-灵活的背景定位/code-pirate.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/03-01-CSS揭秘/0206-复杂的背景图案/网格.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/03-01-CSS揭秘/05-条纹背景/三种颜色的水平条纹.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/03-01-CSS揭秘/0528-环形文字/环形文字.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/03-01-CSS揭秘/09-0301-自适应的椭圆/半圆.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/03-01-CSS揭秘/09-0301-自适应的椭圆/半椭圆.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/03-01-CSS揭秘/09-0301-自适应的椭圆/四分之一圆.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/03-01-CSS揭秘/09-0301-自适应的椭圆/圆形.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/03-01-CSS揭秘/09-0301-自适应的椭圆/椭圆.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/03-01-CSS揭秘/09-0301-自适应的椭圆/跑道.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/03-01-CSS揭秘/10-0302-平行四边形/old做法.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/03-01-CSS揭秘/10-0302-平行四边形/伪元素方案.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/03-01-CSS揭秘/10-0302-平行四边形/嵌套做法.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/03-01-CSS揭秘/11-0303-菱形图片/adamcatlace.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/03-01-CSS揭秘/11-0303-菱形图片/基于变形的方案-嵌套方案.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/03-01-CSS揭秘/11-0303-菱形图片/正六边形.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/03-01-CSS揭秘/11-0303-菱形图片/裁切路径方案.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/03-01-CSS揭秘/12-切角效果/两个切角.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/03-01-CSS揭秘/12-切角效果/单角方案.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/03-01-CSS揭秘/12-切角效果/四面折角.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/03-01-CSS揭秘/12-切角效果/弧形切角.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/03-01-CSS揭秘/12-切角效果/笔形箭头Next.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/03-01-CSS揭秘/13-梯形标签页/梯形.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/03-01-CSS揭秘/15-0401-单侧投影/box-one-side单侧投影.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/03-01-CSS揭秘/15-0401-单侧投影/box-opposite-sidesl领边投影.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/03-01-CSS揭秘/15-0401-单侧投影/box-two-side双侧投影.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/03-01-CSS揭秘/16-0402-不规则投影/text-shadow-drop-shadow.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/03-01-CSS揭秘/17-染色效果/hue-rotate.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/03-01-CSS揭秘/17-染色效果/saturate.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/03-01-CSS揭秘/17-染色效果/sepia.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/03-01-CSS揭秘/17-染色效果/tiger.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/03-01-CSS揭秘/17-染色效果/基于混合模式的实现方案1-双元素方案.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/03-01-CSS揭秘/17-染色效果/基于混合模式的实现方案2-双背景方案.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/03-01-CSS揭秘/17-染色效果/基于滤镜的实现方案-color-filter-tint.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/03-01-CSS揭秘/18-毛玻璃效果/frosted-glasses.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/03-01-CSS揭秘/18-毛玻璃效果/tiger.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/03-01-CSS揭秘/19-折角效果/24ways官网SVG方案.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/03-01-CSS揭秘/19-折角效果/fca.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/03-01-CSS揭秘/19-折角效果/folded-corner-animate.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/03-01-CSS揭秘/19-折角效果/folded-corner.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/03-01-CSS揭秘/19-折角效果/伪元素折角动画.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/03-01-CSS揭秘/19-折角效果/双元素折角动画.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/03-01-CSS揭秘/19-折角效果/折角动画-OK.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/03-01-CSS揭秘/19-折角效果/折角动画.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/03-01-CSS揭秘/26-0507-自定义下划线/underlines.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/03-01-CSS揭秘/26-0507-自定义下划线/wavy-underlines.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/03-01-CSS揭秘/32-通过阴影来弱化背景/backdrop方案.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/03-01-CSS揭秘/32-通过阴影来弱化背景/传统多元素方案.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/03-01-CSS揭秘/32-通过阴影来弱化背景/伪元素方案.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/03-01-CSS揭秘/32-通过阴影来弱化背景/阴影方案.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/03-01-CSS揭秘/35-交互式的图片对比控件/adamcatlace-before.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/03-01-CSS揭秘/35-交互式的图片对比控件/adamcatlace.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/03-01-CSS揭秘/35-交互式的图片对比控件/image-slider.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/03-01-CSS揭秘/35-交互式的图片对比控件/simple-image-slider.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/03-01-CSS揭秘/36-0701-自适应内部元素/instrinsic-sizing.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/03-01-CSS揭秘/38-根据兄弟元素的数量来设置样式/1-选中有4个列表项的第一个元素.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/03-01-CSS揭秘/38-根据兄弟元素的数量来设置样式/2-选择列表总数为4的每一个选项.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/03-01-CSS揭秘/40-0705-垂直居中/flexbox-marginAuto.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/03-01-CSS揭秘/40-0705-垂直居中/flexbox.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/03-01-CSS揭秘/40-0705-垂直居中/transform.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/03-01-CSS揭秘/40-0705-垂直居中/行内元素居中.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/03-01-CSS揭秘/40-0705-垂直居中/行内块法.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/03-01-CSS揭秘/40-0705-垂直居中/行内快法-2.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/03-01-CSS揭秘/40-0705-垂直居中/表格布局垂直-行内块水平居中法.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/03-01-CSS揭秘/40-0705-垂直居中/表格布局法.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/03-01-CSS揭秘/42-缓动效果/小球自由落体运动-逼真.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/03-01-CSS揭秘/42-缓动效果/小球自由落体运动.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/03-01-CSS揭秘/42-缓动效果/弹性过渡-颜色.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/03-01-CSS揭秘/42-缓动效果/弹性过渡.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/03-01-CSS揭秘/43-逐帧动画/loader.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/03-01-CSS揭秘/43-逐帧动画/player.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/03-01-CSS揭秘/43-逐帧动画/player.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/03-01-CSS揭秘/43-逐帧动画/动画人物.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/03-01-CSS揭秘/43-逐帧动画/逐帧动画.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/03-01-CSS揭秘/44-08-闪烁效果/blink.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/03-01-CSS揭秘/44-08-闪烁效果/highlight.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/03-01-CSS揭秘/45-打字动画/打字动画.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/03-01-CSS揭秘/46-状态平滑的动画/SmoothStateAnimation.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/03-01-CSS揭秘/46-状态平滑的动画/panoramic.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/03-01-CSS揭秘/47-沿环形路径平移的动画/adamcatlace.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/03-01-CSS揭秘/47-沿环形路径平移的动画/perfect-circle.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/03-01-CSS揭秘/47-沿环形路径平移的动画/twoElement.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/03-01-CSS揭秘/三角形/transform实现.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/03-01-CSS揭秘/三角形/triangle.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/03-01-CSS揭秘/三角形/梯形演变.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/03-01-CSS揭秘/提示框/tooltip-border.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/03-01-CSS揭秘/提示框/tooltip.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/03-01-CSS揭秘/转圈/fed.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/03-01-CSS揭秘/转圈/转圈.html" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/03-00-css/pro-html5-css3-design-patterns/Chapter 04 - BOX MODELS/Inline Box/example.html" afterPath="$PROJECT_DIR$/03-00-css/pro-html5-css3-design-patterns/Chapter 04 - BOX MODELS/Inline Box/example.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/03-00-css/pro-html5-css3-design-patterns/Chapter 04 - BOX MODELS/Inline Box/page.css" afterPath="$PROJECT_DIR$/03-00-css/pro-html5-css3-design-patterns/Chapter 04 - BOX MODELS/Inline Box/page.css" />
+    </list>
+    <ignored path="02-3rdMickle.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="02-3rdMickle" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/03-00-css/pro-html5-css3-design-patterns/Chapter 04 - BOX MODELS/Inline Box/example.html" />
+        <option value="$PROJECT_DIR$/03-00-css/pro-html5-css3-design-patterns/Chapter 04 - BOX MODELS/Inline Box/page.css" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" />
+  <component name="JsBuildToolPackageJson" detection-done="true" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1692" />
+    <option name="height" value="1026" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scratches" />
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="02-3rdMickle" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="02-3rdMickle" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="02-3rdMickle" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="02-3rdMickle" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="02-3rdMickle" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="03-00-css" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="settings.editor.selected.configurable" value="configurable.group.tools" />
+    <property name="settings.editor.splitter.proportion" value="0.2" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../01-2ndMickle" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="HbShouldOpenHtmlAsHb" value="" />
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerKarma" factoryName="Karma" config-file="">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" working-dir="">
+      <method />
+    </configuration>
+    <configuration default="true" type="cucumber.js" factoryName="Cucumber.js">
+      <option name="cucumberJsArguments" value="" />
+      <option name="executablePath" />
+      <option name="filePath" />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.npm" factoryName="npm">
+      <command value="run-script" />
+      <scripts />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="mocha-javascript-test-runner" factoryName="Mocha">
+      <node-options />
+      <working-directory>$PROJECT_DIR$</working-directory>
+      <pass-parent-env>true</pass-parent-env>
+      <envs />
+      <ui>bdd</ui>
+      <extra-mocha-options />
+      <test-kind>DIRECTORY</test-kind>
+      <test-directory />
+      <recursive>false</recursive>
+      <method />
+    </configuration>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="394e6f79-911a-4210-bc93-c0ae25261390" name="Default" comment="" />
+      <created>1477979251950</created>
+      <option name="number" value="Default" />
+      <updated>1477979251950</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1692" height="1026" extended-state="0" />
+    <editor active="false" />
+    <layout>
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2496977" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/03-00-css/pro-html5-css3-design-patterns/Chapter 04 - BOX MODELS/Inline Box/page.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.09876543">
+          <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/03-00-css/pro-html5-css3-design-patterns/Chapter 04 - BOX MODELS/Inline Box/site.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/03-00-css/pro-html5-css3-design-patterns/Chapter 04 - BOX MODELS/Inline Box/example.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.4691358">
+          <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
