@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<script>
+    navigator.geolocation.getCurrentPosition(function(position){ //异步回调
+        console.log('.....');
+        console.dir(position);
+        console.dir(position.coords);
+        console.log(position.latitue);
+    })
+    console.log('...end');
+</script>
+</body>
+</html>

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<input type="text" id="test">
+<input type="text" id="change">
+
+<script>
+    var o = document.querySelector('#test')
+    o.oninput = function(e){
+        console.log(e.target.value);
+    }
+
+    var c =document.getElementById('change')
+    c.onchange = function(e){
+        console.log(e.target.value);
+    }
+//    c.onkeyup = function(e){
+//        console.log(e.target.value);
+//    }
+</script>
+</body>
+</html>
