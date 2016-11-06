@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Notifications API</title>
+</head>
+<body>
+<input id="fire" type="button" value="fire Notification">
+
+<script type="text/javascript">
+    var btn = document.getElementById("fire");
+    if(window.Notification && Notification.permission !== "denied") {
+        Notification.requestPermission(function(status) {
+            if(status === 'granted') {
+                btn.addEventListener('click', function() {
+                    var n = new Notification('Title', {
+                        body : 'I am a Notification'
+                    });
+                    setTimeout(function() {
+                        n.close();
+                    }, 2000);
+                });
+            }
+        });
+    }
+</script>
+</body>
+</html>

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+
+<script>
+    Notify("","标题","内容")
+    function Notify (icon, title, msg) {
+
+        if (window.Notification && Notification.permission !== "granted") {
+            Notification.requestPermission(function (status) {
+                if (Notification.permission !== status) {
+                    Notification.permission = status;
+                }
+            });
+        }
+        var options = {
+            lang: 'zh-CN',
+            body: msg,
+            tag:'test',//此属性会覆盖弹窗信息
+            icon: 'temp.png'
+        };
+        var notify;
+        if (window.Notification && Notification.permission === "granted") {
+            notify = new Notification(title, options);
+        }
+        else if (window.Notification && Notification.permission !== "denied") {
+            Notification.requestPermission(function (status) {
+                if (Notification.permission !== status) {
+                    Notification.permission = status;
+                }
+                if (status === "granted") {
+                    notify = new Notification(title, options);
+                }
+                else {
+                    console.log('您禁止了桌面通知，无法推送到您的桌面！');
+                }
+            });
+        }
+        else {
+            console.log('您禁止了桌面通知，无法推送到您的桌面！');
+        }
+        if (notify) {
+            notify.onclose = function (evt) {
+
+            };
+            //点击切换到浏览器
+            notify.onclick = function () {
+                window.focus();
+            };
+        }
+    }
+</script>
+</body>
+</html>

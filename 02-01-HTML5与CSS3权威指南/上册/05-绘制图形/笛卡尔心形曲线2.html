@@ -1,0 +1,38 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset='UTF-8' />
+    <title>Cardioid</title>
+</head>
+
+<body style="text-align:center;">
+<canvas id="pad" width='500' height='500'>你不换一个浏览器，比如chrome，将无法知道这个秘密。</a>
+</canvas>
+<script type="text/javascript">
+    var $id = function(n) {
+        return document.getElementById(n) || n;
+    }
+    window.addEventListener("load", draw, false);
+    var con = $id("pad").getContext('2d');
+    con.fillStyle = '#e21f27'
+    con.translate(200, 100);
+
+    function draw() {
+        var r = 0,
+                a = 100,
+                start = 0,
+                end = 0;
+        con.rotate(Math.PI);
+        for (var q = 0; q < 500; q++) {
+            start += Math.PI * 2 / 500;
+            end = start + Math.PI * 2 / 500;
+            r = a * (1 - Math.sin(start)); //心形极坐标表示法
+            con.arc(0, 0, r, start, end, false);
+        }
+        con.fill();
+    }
+</script>
+</body>
+
+</html>

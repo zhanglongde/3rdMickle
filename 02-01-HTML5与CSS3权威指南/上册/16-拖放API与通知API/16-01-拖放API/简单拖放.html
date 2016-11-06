@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title></title>
+    <script>
+        function init(){
+            var source = document.getElementById('dragme');
+            var dest = document.getElementById("text");
+//拖动开始
+            source.addEventListener("dragstart",function(ev){
+//向dataTransfer对象添加数据
+                var dt = ev.dataTransfer;
+                dt.effectAllowed = "all";
+//拖动元素为dt.setData("text/plain",this.id);
+                dt.setData("text/plain","您好");
+            },false);
+//拖放结束
+            dest.addEventListener("dragend",function(ev){
+//不执行默认处理(拒绝被拖放)
+                ev.preventDefault();
+            },false);
+//drop：被拖放
+            dest.addEventListener("drop",function(ev){
+//从DataTransfer对象那里取得数据
+                var dt = ev.dataTransfer;
+                var text = dt.getData("text/plain");
+                dest.textContent += text;
+//不执行默认处理（拒绝被拖放）
+                ev.preventDefault();
+                ev.stopPropagation();
+            },false);
+        }
+        //设置页面属性，不执行默认处理(拒绝被拖放)
+        document.ondragover = function(e){
+            e.preventDefault();
+        }
+        document.ondrop = function(e){
+            e.preventDefault();
+        }
+    </script>
+</head>
+<body onload="init();">
+<div id="dragme" draggable="true" style="width: 200px;border: 1px solid gray;">
+    请拖放
+</div>
+<div id="text" style="width: 200px;height: 200px;border: 1px solid gray;">
+</div>
+</body>
+</html>

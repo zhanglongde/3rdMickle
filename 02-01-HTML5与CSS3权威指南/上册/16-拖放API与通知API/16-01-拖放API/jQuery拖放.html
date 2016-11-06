@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="zh-cn" dir="ltr">
+<head>
+    <meta charset="UTF-8" />
+    <title>施放示例</title>
+    <script type="text/javascript" src="../../../../lib/jquery-1.11.3.min.js"></script>
+    <script type="text/javascript" src="./dragdrop.js"></script>
+</head>
+<body>
+<h1>简单拖放示例</h1>
+<div id="dragme" draggable="true" style="width:200px; border:1px solid gray; ">请施放</div>
+<div id="text" style="width:200px; height:200px; border:1px solid gray; "></div>
+
+<script>
+
+    $(function() {
+        //拖放操作
+        $(document).dragover(function(event) {
+            event.preventDefault();
+        });
+//        $("#dragme").dragstart(function(event) {
+//            var dt = event.dataTransfer;
+//            dt.effectAllowed = 'all';
+//            dt.setData("text/plain", this.id);
+//        });
+        $('#dragme').dragstart(function(event) {
+            var dt = event.dataTransfer;
+            dt.effectAllowed = 'all';
+
+            var dragIcon = document.createElement("img");
+            dragIcon.src ='../../../../images/mm1.jpg';
+            dt.setDragImage(dragIcon,-10,-10);
+
+            dt.setData("text/plain", "Welcome");
+        });
+
+        $("#text").dragend(function(event) {}).drop(function(event) {
+            var dt = event.dataTransfer;
+            var text = dt.getData("text/plain");
+            $(this).append(text);
+        });
+
+
+//        拖放时的视觉效果
+//        $("#dragme").dragstart(function(event) {
+//            var dt = event.dataTransfer;
+//            dt.effectAllowed = 'copy';
+//            dt.setData("text/plain", "Hello.");
+//        });
+//
+//        $("#text").dragover(function(event) {
+//            var dt = event.dataTransfer;
+//            dt.dropEffect = 'copy';
+//            event.preventDefault();
+//        });
+
+
+    });
+
+
+
+
+
+</script>
+</body>
+
+</html>

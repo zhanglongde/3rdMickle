@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title></title>
+    <script>
+        function init(){
+            var dragIcon = document.createElement("img");
+            dragIcon.src ='https://www.baidu.com/img/bdlogo.png';
+            var source = document.getElementById('dragme');
+            var dest = document.getElementById("text");
+            source.addEventListener('dragstart',function(ev){
+                var dt = ev.dataTransfer;
+                dt.setDragImage(dragIcon,-10,-10);
+                dt.effectAllowed = "copy";
+                dt.setData("text/plain","您好");
+            },false);
+            dest.addEventListener('dragend',function(ev){
+                ev.preventDefault();
+            },false);
+            dest.addEventListener('dragover',function(){
+                var dt = ev.dataTransfer;
+                dt.dropEffect = "copy";
+                ev.preventDefault();
+            },false);
+            dest.addEventListener('drop',function(ev){
+                var dt = ev.dataTransfer;
+                var text = dt.getData("text/plain");
+                dest.textContent +=text;
+                ev.preventDefault();
+                ev.stopPropagation();
+            },false);
+        }
+        document.ondragover = function(e){
+            e.preventDefault();
+        };
+        document.ondrop = function(e){
+            e.preventDefault();
+        }
+    </script>
+</head>
+<body onload="init();">
+<div id="dragme" draggable="true" style="width: 200px;border: 1px solid gray;">
+    请拖放
+</div>
+<div id="text" style="width: 200px;height: 200px;border: 1px solid gray;">
+
+</div>
+</body>
+</html>
