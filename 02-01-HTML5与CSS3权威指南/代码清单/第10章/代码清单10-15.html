@@ -42,7 +42,7 @@ function readFile(){
 }
 function errorHandler(e)
 {
-    switch (e.code) {        
+    switch (e.code) {
         case FileError.QUOTA_EXCEEDED_ERR:
             msg = '文件系统所使用的存储空间的尺寸超过磁盘限额控制中指定的空间尺寸';
             break;

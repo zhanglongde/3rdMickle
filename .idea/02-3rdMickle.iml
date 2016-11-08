@@ -3,6 +3,7 @@
   <component name="NewModuleRootManager">
     <content url="file://$MODULE_DIR$">
       <excludeFolder url="file://$MODULE_DIR$/02-01-HTML5与CSS3权威指南/代码清单" />
+      <excludeFolder url="file://$MODULE_DIR$/02-03-html5Canvas核心技术/code-master" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
