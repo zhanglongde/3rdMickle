@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    function fail(thing) {
+        throw new Error(thing)
+    }
+    function warn(thing) {
+        console.log(['WARNING:',thing].join(' '))
+    }
+    function note(thing) {
+        console.log(['NOTE:',thing].join(' '))
+    }
+    function parseAge(age){
+      if(typeof age !== 'string'){ //注意基本类型为小写  
+          fail('expecting a string')
+      }
+
+      note('attempting to parse an age')
+        var a = parseInt(age,10)
+
+        if (isNaN(a)) {
+            warn(['Could not parse age:',age].join(' '))
+            a = 0
+        }
+
+        return a
+    }
+
+    var age = parseAge('16sui')
+    console.log(age)
+    parseAge(16)
+</script>
+</body>
+</html>

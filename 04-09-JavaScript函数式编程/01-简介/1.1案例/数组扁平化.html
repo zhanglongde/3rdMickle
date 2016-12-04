@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<script>
+//    数组元素求和
+    function splat(fun) {
+        return function (array) {
+            //利用了es6解构赋值的特性，函数参数的解构赋值：以数组形式传参，解构成参数列表
+            return fun.apply(undefined,array)
+        }
+    }
+    var addArrayElements = splat(function (x,y) {
+        return x+y
+    })
+    var res = addArrayElements([1,2])
+    console.log(res)
+
+
+//    参数列表（类数组对象）转化为以空格相连的字符串
+    function unsplat(fun) {
+        return function () {
+//            call与apply的不同之处，call的第二个参数为参数列表
+//            借助数组示例的slice方法将参数列表转化为数组
+            return fun.call(undefined,[].slice.call(arguments))
+        }
+    }
+    var joinElements = unsplat(function (array) {
+        return array.join(' ')
+    })
+
+    var r2 = joinElements(1,2)
+    console.log(r2)
+</script>
+</body>
+</html>
