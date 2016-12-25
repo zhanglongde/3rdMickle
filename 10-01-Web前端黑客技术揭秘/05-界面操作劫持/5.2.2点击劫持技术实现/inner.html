@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        *{
+            margin:0;padding:0;
+        }
+    </style>
+</head>
+<body>
+<input type="button" style="width:100px;" value="Login" onclick="alert(document.cookie)">
+</body>
+
+<script>
+    window.onload = function () {
+        document.cookie = 'test'
+    }
+</script>
+</html>

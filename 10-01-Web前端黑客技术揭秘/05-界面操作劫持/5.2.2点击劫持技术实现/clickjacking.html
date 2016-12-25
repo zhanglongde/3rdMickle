@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        /**{*/
+            /*margin:0;padding:0;*/
+        /*}*/
+        #click{
+            width:100px;top:10px;left:10px;position:absolute;
+            z-index:1;
+        }
+        #hidden{
+           height:50px;width:120px;position:absolute;opacity: 0.2;
+            z-index:2;
+        }
+    </style>
+</head>
+<body>
+<input type="button" id="click" value="Click me">
+<iframe src="inner.html" id="hidden"  scrolling="no" frameborder="0"></iframe>
+</body>
+</html>
