@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>
+        图片，按钮，单复选框，单行/多行文本框等HTML控件，只有这些元素默认情况下会对vertical-align属性起作用
+
+        只有一个元素属于inline或是inline-block（table-cell也可以理解为inline-block水平）水平，
+        其身上的vertical-align属性才会起作用
+
+        虽然vertical-align属性只会在inline-block水平的元素上期作用，
+        但是其影响到的元素涉及到inline属性的元素，这里千万记住，
+        inline水平元素受vertical-align属性而位置改变等不是因为其对vertical-align属性敏感或起作用，
+        而是受制于整个line box的变化而不得不变化的，这个后面会较为深入的分析。
+    </title>
+    <style>
+        .vertical-outer{
+            display:table;
+            height:10em;
+        }
+        .vertical-inner{
+            display: table-cell;
+            vertical-align: middle;
+
+            border:1px solid #bdbdbd;
+        }
+        .container{
+            display:inline-block;
+            width:300px;height:300px;
+
+            background-color: #9c3;
+            vertical-align: middle;
+        }
+        /*.container:before{*/
+            /*content: '';*/
+            /*display: inline-block;*/
+
+            /*height:100%;*/
+            /*width:0;*/
+        /*vertical-align: middle;*/
+        /*}*/
+        .container button{
+            height:150px;
+        }
+    </style>
+</head>
+<body>
+<div class="vertical-outer">
+    <div class="vertical-inner">
+        <p>I'm so centered it's not even funny.</p>
+    </div>
+</div>
+
+<div class="container"><span>1</span><span>2</span> <button>按钮</button></div>
+</body>
+</html>

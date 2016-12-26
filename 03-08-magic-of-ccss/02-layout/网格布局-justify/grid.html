@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        *{
+            box-sizing: border-box;
+        }
+        .grid {
+            /*width:700px;*/
+            border: .125rem solid;
+            text-align: justify;
+            font-size: 0; /*去除inline-block间隙*/
+            padding: 4% 4% 0 4%;
+        }
+
+        .box {
+            font-size: 1rem;
+            display: inline-block;
+            background: #eee;
+            border: .125em solid;
+            width: 30%;
+            padding: 2%;
+            margin-bottom: 4%
+        }
+
+        /* All but the last 3 boxes */
+        /*.box:nth-last-child(n) {*/
+            /*margin-bottom: 4%*/
+        /*}*/
+
+        /*最后一行，整齐排列*/
+        .break {
+            display: inline-block;
+            width: 30%;
+            height: 0;
+        }
+    </style>
+</head>
+<body>
+<div class="grid">
+    <div class="box">Column</div>
+    <div class="box">Column</div>
+    <div class="box">Column</div>
+    <div class="box">Column</div>
+    <div class="box">Column</div>
+    <div class="box">Column</div>
+    <div class="break"></div>
+</div>
+</body>
+</html>
