@@ -2,9 +2,21 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>$Title$</title>
+    <title>Title</title>
 </head>
 <body>
-$END$
+
+
+<script>
+
+    function Test() {
+        console.log(arguments)
+        console.log([].slice.apply(arguments))
+        console.log(Array.prototype.slice.apply(arguments))
+        console.log([].concat.apply([],arguments))
+    }
+    Test('1','2')
+</script>
+
 </body>
 </html>

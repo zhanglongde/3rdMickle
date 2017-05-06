@@ -11,6 +11,33 @@
     delete arr[2]
     console.log(arr)
     console.log(arr.length)
+    arr.length --
+    console.log(arr.length)
+
+    console.log('%c-----------------------------------------------------------', 'background-color:#e66;color:#fff;font-size:30px;')
+
+    var obj = {
+        name:'hello',
+        age:27,
+        gender:'M'
+    }
+    console.log(obj.length)
+    delete obj['name']
+    console.log(obj.length)
+    console.log(obj)
+
+    console.log('%c-----------------------------------------------------------', 'background-color:#e66;color:#fff;font-size:30px;')
+    function Obj() {
+        this.name='hello';
+        this.age=27;
+        this.gender='M';
+    }
+    var o = new Obj()
+    console.log(o.length)
+    console.log(Object.getOwnPropertyNames(obj).length)
+    delete o['name']
+    console.log(o.length)
+    console.log(o)
 </script>
 </body>
 </html>
