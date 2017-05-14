@@ -2,9 +2,40 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>$Title$</title>
+    <title>
+        只在半角空格、连字符处换行
+    </title>
+    <style>
+        div{
+            width:160px;
+            background-color: #58a;
+            color:#fc3;
+            word-wrap:break-word;
+            /*word-break:break-all;*/
+        }
+    </style>
 </head>
 <body>
-$END$
+<div>
+    client端分为front和admin，webpack2打包实现多页配置，开发模式下hot reload admin端使用vue2、vuex、vue-router
+    front端直接使用 vue event bus vuex(考虑到今后博客应用可能变复杂)、vue-router, Fastclick解决移动端300ms延迟问题
+    编辑器使用simplemde
+    markdown解析和高亮使用marked.js和highlight.js
+    server
+    使用koa2+koa-router实现RESTful API
+    mongoose连接mongodb
+    前后端鉴权使用jwt
+    实现Server-Side Rendering服务端渲染
+    更多细节
+
+    博客线上地址：http://123.206.67.156:9000/
+    掘金文章：https://juejin.im/post/58f99b3cac502e006395e6e7
+    细节待更新（访问博客线上地址可以获得最新信息）
+    快速开始
+
+    需要Node.js 6+版本
+    需要安装mongodb,并且运行mongodb服务,在server/configs/index.js中默认连接mongodb://localhost:27017/vue-blog
+    配置server/configs/index.js,配置admin用户名、密码等,或者新建server/configs/private.js
+</div>
 </body>
 </html>
