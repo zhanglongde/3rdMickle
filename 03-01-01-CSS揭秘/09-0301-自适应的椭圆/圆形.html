@@ -4,17 +4,27 @@
     <meta charset="UTF-8">
     <title>Title</title>
     <style>
-        div{
+        div.normal{
             background: #fb3;
             width: 200px;
             height: 200px;
-            /*挡半径大于border box尺寸时，会按比例缩小*/
-            border-radius:100px; /*>=正方形边长的一半*/
+
+            border-radius:50%; /*=正方形边长的一半*/
+        }
+        div.im-normal{
+            background-color: #58a;
+            width:300px;
+            height:300px;
+
+            /*当两个相邻圆角半径之和大于border box尺寸时，会按比例缩小*/
+            /*所以border-radius的值大等于正方形边长的一半*/
+            border-radius:400px;
         }
     </style>
 </head>
 <body>
 
-<div></div>
+<div class="normal"></div>
+<div class="im-normal"></div>
 </body>
 </html>

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        .bevel{
+            position:absolute;top:0;left:0;right:0;bottom:0;margin:auto;
+            width: 300px;
+            height: 130px;
+            color:#fff;
+            padding:2em;
+
+
+            background-color: #58a;/*回退方案*/
+            /*每一部分为倾斜的双条纹：0-15px,15px-N*/
+            background: linear-gradient(-45deg,transparent 15px,#58a 0) bottom right,
+            linear-gradient(45deg,transparent 15px,#58a 0) bottom left,
+            linear-gradient(135deg,transparent 15px,#58a 0) top left,
+            linear-gradient(-135deg,transparent 15px,#58a 0) top right; /*右下角*/
+
+            /*将整个容器分为四部分*/
+            background-size:50% 50%;
+            background-repeat: no-repeat;
+        }
+    </style>
+</head>
+<body>
+<div class="bevel">
+    Hey, focus! You’re supposed to be looking at my corners,
+    not reading my text. The text is just placeholder!
+</div>
+</body>
+</html>

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        .pie{
+            position:absolute;top:0;left:0;right:0;bottom:0;margin:auto;
+            width:200px;
+            height:200px;
+            border-radius:50%;
+
+            /*回退*/
+            background-color: yellowgreen;
+            background: linear-gradient(90deg,yellowgreen 50%,#655 0);
+        }
+        /*产生用于覆盖的半圆*/
+        .pie:before{
+            content:'';
+
+            position:absolute;top:0;right:0;
+            /*margin-left:50%;*/
+
+            /*形成半圆*/
+            width:100px;height:200px;
+            border-radius:0 100% 100% 0/0 50% 50% 0;
+            background-color: yellowgreen;
+
+            transform:rotate(0turn);
+            transform-origin:left;
+
+            transition: transform 2s .1s;
+        }
+        .pie:hover:before{
+            transform:rotate(.5turn);
+        }
+    </style>
+</head>
+<body>
+<div class="pie"></div>
+</body>
+</html>

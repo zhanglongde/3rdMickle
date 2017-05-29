@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>
+        outline与Border-radius产生空隙
+        到底多大的投影扩张值可以填补这些空隙？
+    </title>
+    <style>
+        .box{
+            box-sizing: border-box;
+            position:absolute;top:0;left:0;right:0;bottom:0;margin:auto;
+            width:300px;
+            height:100px;
+            padding:1em;
+            background-color: tan;
+            border-radius:.8em;
+
+            /*与圆角之间产生间隙*/
+            outline:.6em solid #655;
+            /*扩展半径用于填充缝隙*/
+            box-shadow: 0 0 0 .5em #655;
+        }
+    </style>
+</head>
+<body>
+<div class="box">
+    I have a since subtle inner rounding,
+    don't I look pretty?
+</div>
+</body>
+</html>

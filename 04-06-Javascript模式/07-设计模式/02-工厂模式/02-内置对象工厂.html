@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>
+        根据传入的参数产生不同的实例
+    </title>
+</head>
+<body>
+
+<script>
+//    无论是否使用new操作符，都可以调用Object()
+    var a = new Object(),
+            b = new Object(1),
+            c = new Object('1'),
+            d = new Object(true)
+    console.log(a.constructor === Object)
+    console.log(b.constructor === Number)
+    console.log(c.constructor === String)
+    console.log(d.constructor === Boolean)
+</script>
+</body>
+</html>

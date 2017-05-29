@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        div{
+            width:200px;height:100px;
+        }
+        .box1{
+            /*渐变区域从0-100%*/
+            background: linear-gradient(#fb3,#58a);  
+        }
+        .box2{
+            /*渐变区域从40%-60%*/
+            background: linear-gradient(#fb3 40%,#58a 60%);
+        }
+        .box3{
+            /*渐变区域的高度为0，即产生条纹效果*/
+            background: linear-gradient(#fb3 50%,#58a 50%);
+        }
+    </style>
+</head>
+<body>
+<div class="box1"></div>
+<div class="box2"></div>
+<div class="box3"></div>
+</body>
+</html>

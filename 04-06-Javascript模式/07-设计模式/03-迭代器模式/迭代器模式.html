@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+
+<script>
+var agg = (function () {
+    var index = 0
+    var data = [1,2,3,4,5]
+    var length = data.length
+
+    return {
+        next: function () {
+            var element;
+            if (!this.hasNext()) {
+              return null
+            }
+            element = data[index]
+            index = index + 2
+            return element
+
+        },
+        hasNext: function () {
+          return index < length
+        },
+        rewind: function () {
+//            重置指针到初始位置
+          index = 0
+        },
+        current: function () {
+            // 不前进指针
+          return data[index]
+        }
+    }
+}())
+
+    while(agg.hasNext()){
+        var ele = agg.next()
+        console.log(ele)
+    }
+
+
+
+
+function Egg() {
+    var index = 0
+    var data = [1,2,3,4,5]
+    var length = data.length
+
+    return {
+        next: function () {
+            var element;
+            if (!this.hasNext()) {
+                return null
+            }
+            element = data[index]
+            index = index + 2
+            return element
+
+        },
+        hasNext: function () {
+            return index < length
+        },
+        rewind: function () {
+            //            重置指针到初始位置
+            index = 0
+        },
+        current: function () {
+            // 不前进指针
+            return data[index]
+        }
+    }
+}
+
+var egg = new Egg()
+    console.log( egg.next())
+</script>
+</body>
+</html>

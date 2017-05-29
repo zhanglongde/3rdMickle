@@ -18,7 +18,7 @@
             -o-transform: translate3d(-50%,-50%,0);
             transform: translate3d(-50%,-50%,0);
             width: 320px;
-            height: 320px;padding:10px;
+            height: 320px;padding:20px;
             text-shadow:0 1px 3px hsla(0,0%,0%,.3);
             border-radius:5px;
             background-color: #5ba;/*回退方案*/
@@ -29,6 +29,11 @@
             radial-gradient(circle at top right,transparent 15px,#f73 0) top right; /*右下角*/
             background-size:50% 50%;
             background-repeat: no-repeat;
+
+            transition:all 6s 0.1s;
+        }
+        .bevel-four-corner:hover{
+            background-size:100%;
         }
     </style>
 </head>

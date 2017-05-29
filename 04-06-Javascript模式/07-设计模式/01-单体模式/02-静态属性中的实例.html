@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+
+<script>
+    function Universe() {
+      // 说明已经初始化为this过了
+      if (typeof Universe.instance === 'object') {
+        return Universe.instance
+      }
+      this.start_time = 0;
+      this.bang = 'Big';
+
+//      缓存
+      Universe.instance = this;
+
+      // 隐式返回this
+//      return this
+    }
+    var uni = new Universe()
+    var uni2 = new Universe()
+    console.log(uni === uni2)
+</script>
+</body>
+</html>

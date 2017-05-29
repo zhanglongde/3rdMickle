@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>
+        对象之间永远不会完全相等，除非他们是同一个对象
+    </title>
+</head>
+<body>
+
+
+<script>
+    var obj = {
+        myprop:'my value'
+    }
+    var obj2 = {
+        myprop:'my value'
+    }
+
+    console.log(Object.is(obj,obj2))
+    console.log(Object.is(obj,obj))
+</script>
+</body>
+</html>

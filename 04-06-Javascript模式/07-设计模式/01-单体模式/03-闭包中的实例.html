@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+
+<script>
+    function Universe() {
+//        缓存实例
+        var instance = this
+
+        this.start_time = 0;
+        this.bang = 'big';
+
+//        重写构造函数
+        Universe = function () {
+          return instance
+        }
+    }
+    
+    console.log(Object.is(new Universe(),new Universe()))
+</script>
+</body>
+</html>
