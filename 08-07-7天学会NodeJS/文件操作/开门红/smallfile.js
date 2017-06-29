@@ -12,7 +12,7 @@ function copy(src,dst) {
     if (err) {
       throw(err)
     }
-    fs.writeFile(data)
+    fs.writeFile(dst,data)
   })
 }
 
