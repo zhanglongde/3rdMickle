@@ -17,7 +17,7 @@
     var msg =  r.getAttribute("x") + ", " +
       r.getAttribute("y") + " " +
       r.style.getPropertyValue("stroke") + " " +
-      r.style.getPropertyValue("fill"); 
+      r.style.getPropertyValue("fill");
     r.setAttribute("height", "30");
     txt.textContent= msg;
     ]]></script>
