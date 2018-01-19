@@ -2,9 +2,37 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>$Title$</title>
+    <title>
+        出现在底部的浅色投影（ 或者出现在顶部的暗色投影） 会让人
+        产生物体是凹进平面内的错觉。
+        同理， 出现在底部的暗色投影（ 或者出现在
+        顶部的浅色投影） 会让人产生物体从平面上凸起的错觉。
+
+
+        这种方法之所以奏效， 是因为我们在现实世界中早已习惯了光源总是悬在头顶。 在这样的环境
+        里， 凸起物的下方会产生阴影， 而凹陷的底部边缘则会被打亮。
+    </title>
+    <style>
+        body {
+            font: 250%/1.6 Baskerville, Palatino, serif;
+        }
+
+        p {
+            padding: .8em 1em;
+            background: hsl(210, 13%, 60%);
+            color: hsl(210, 13%, 30%);
+            text-shadow: 0 1px 1px hsla(0,0%,100%,.8);
+        }
+
+        p + p {
+            background: hsl(210, 13%, 30%);
+            color: hsl(210, 13%, 60%);
+            text-shadow: 0 -1px 1px black;
+        }
+    </style>
 </head>
 <body>
-$END$
+<p>“The only way to get rid of a temp­ta­tion is to yield to it.”</p>
+<p>“The only way to get rid of a temp­ta­tion is to yield to it.”</p>
 </body>
 </html>
